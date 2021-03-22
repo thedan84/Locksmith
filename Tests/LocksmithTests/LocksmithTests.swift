@@ -415,7 +415,7 @@ class LocksmithTests: XCTestCase {
         let accessGroup: String = "myAccessGroup"
         let description: String = "myDescription"
         let creator: UInt = 5
-        let accessible: LocksmithAccessibleOption = LocksmithAccessibleOption.always
+        let accessible: LocksmithAccessibleOption = LocksmithAccessibleOption.afterFirstUnlock
         let comment: String = "myComment"
         let type: UInt = 10
         let isInvisible: Bool = false
